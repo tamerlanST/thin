@@ -4,7 +4,7 @@ set -e
 
 USERNAME="${SUDO_USER:-$(whoami)}"
 HOME_DIR=$(eval echo "~$USERNAME")
-RDP_SERVER="192.168.1.100"  # ← Укажи свой сервер
+RDP_SERVER="35.179.130.236"  # ← Укажи свой сервер
 
 echo "[1/8] Настраиваем для пользователя: $USERNAME (home: $HOME_DIR)"
 
